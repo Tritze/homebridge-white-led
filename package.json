@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-white-led",
+  "version": "0.0.48",
+  "description": "DIY single color plugin for homebridge: https://github.com/nfarina/homebridge. Inspired by: https://github.com/TG908/homebridge-LEDStrip",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Tritze"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tritze/homebridge-white-led.git"
+  },
+  "dependencies": {
+    "pigpio" : ">=0.6.0"
+  }
+}
